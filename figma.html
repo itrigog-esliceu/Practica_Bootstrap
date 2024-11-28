@@ -1,29 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Practica Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <title>Practica  Bootstrap</title>
+    <title>Exercici boostrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="col-md-4">
-            <div class="col-sm-6">    
-                <h1>Design products</h1>
-                <h1>Deliver experience</h1>
-            </div>
-                <div>
-                    <img class="col mb-2 col-sm-6 col-md-4" src="img/Captura de pantalla de 2024-11-22 09-06-09.png" alt="">
+    <div class="container-fluid custom-container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-12 title">
+                    <h1>Design products</h1>
+                    <h1 class="ms-5">Deliver experience</h1>
                 </div>
-            <div class="col-sm-12">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum blanditiis, eligendi beatae deleniti illo atque soluta enim odit libero temporibus consectetur quia repellat quas quis explicabo veritatis nihil! Magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis a velit et perferendis tempora suscipit sit obcaecati ducimus cum inventore. Obcaecati voluptatibus aliquid, vitae doloremque similique mollitia itaque eveniet tempore!
-            </div>
-                <div class="button">
-                    Get started
+                <div class="col-md-12 mt-5 ps-4 border-start border-dark border-5 title-description mb-5">
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Cursus imperdiet sed id elementum. Quam vel aliquam sit
+                        vulputate. Faucibus nec gravida ipsum pulvinar vel.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Cursus imperdiet sed id elementum.
+                    </p>
+                    <button class=" bg-dark text-white rounded-pill px-5 pb-2 pt-2 mt-2">
+                        Get started
+                    </button>
                 </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid mt-4 mb-5 p-2" src="img/camera.png" alt="Exercici boostrap"
+                    title="Polaroid camera">
+            </div>
+        </div>
+        <div class="row mt-3 row-cards">
+            <div class="col-md-3 p-3 pt-5 pb-5 bg-white">
+                <h6>Title 1</h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas unde totam iure illum, natus rem deserunt.
+                </p>
+            </div>
+            <div class="col-md-3 p-3 pt-5 pb-5 bg-exercici">
+                <h6>Title 2</h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas unde totam iure illum, natus rem deserunt.
+                </p>
+            </div>
+            <div class="col-md-3 p-3 pt-5 pb-5 bg-white">
+                <h6>Title 3</h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas unde totam iure illum, natus rem deserunt.
+                </p>
+            </div>
+            <div class="col-md-3 p-3 pt-5 pb-5 bg-exercici">
+                <h6>Title 4</h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas unde totam iure illum, natus rem deserunt.
+                </p>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
