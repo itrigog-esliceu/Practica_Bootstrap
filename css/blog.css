@@ -11,8 +11,7 @@
     padding: 10px;
     padding-top: 20px;
     text-align: center;
-    color: antiquewhite;
-    
+    color: antiquewhite;   
 }
 
 .tab-container-1 div:hover  {
@@ -22,10 +21,6 @@
 
 .pestanyes {
     background-color: rgb(21, 18, 56);
-}
-
-.tab-1 {
-    text-align: unset;
 }
 
 .nav-button {
