@@ -23,9 +23,20 @@
     background-color: rgb(21, 18, 56);
 }
 
-.nav-button {
+.nav-button-1 {
     border-radius: 4px;
     padding: 10px;
+}
+
+.nav-button-2 {
+    border-radius: 10px;
+    padding: 12px;
+    background-color: orangered;
+    color: white;
+}
+
+.button-PP {
+   
 }
 
 .log-button {
@@ -47,4 +58,5 @@ h1 {
 
 p {
     color: white;
+    line-height: 10px;
 }
