@@ -30,13 +30,20 @@
 
 .nav-button-2 {
     border-radius: 10px;
-    padding: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
     background-color: orangered;
     color: white;
 }
 
-.button-PP {
-   
+.nav-button-3 {
+    border-radius: 10px;
+    padding-left: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 75px;
+    background-color: orangered;
+    color: white;
 }
 
 .log-button {
@@ -50,13 +57,19 @@
     height: 40vh;
     background-position: center;
     background-size: cover;
+    color: white;
 }
 
 h1 {
     color: white;
 }
 
-p {
-    color: white;
-    line-height: 10px;
+.part-1 {
+    padding-left: 10px;
+    color: black;
 }
+
+.color-txt {
+    color: orangered;
+}
+
