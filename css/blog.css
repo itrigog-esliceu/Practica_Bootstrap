@@ -73,3 +73,13 @@ h1 {
     color: orangered;
 }
 
+.contain1 {
+    padding: 45px;
+}
+.contain2 {
+    background-color: rgb(245, 106, 118);
+    color: white;
+    padding: 45px;
+}
+
+
