@@ -79,7 +79,13 @@ h1 {
 .contain2 {
     background-color: rgb(245, 106, 118);
     color: white;
-    padding: 45px;
+    padding: 45px;;
 }
 
+.img-2 {
+   border-image: 12px;
+}
 
+.img-3 {
+    
+}
