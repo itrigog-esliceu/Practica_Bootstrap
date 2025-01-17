@@ -88,11 +88,34 @@ h1 {
 
 .img-3 {
     border-radius: 50%;
-    
+}
+
+.img-4 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.img-5 {
+    border-radius: 50%;
+    margin: 30%;
+    width: 50px;
+    height: 50px;
+
 }
 
 .container {
     border-radius: 7px;
     background-color: aliceblue;
     padding: 10px;
+    text-align: center;
+}
+
+.text-align {
+    text-align: center;
+} 
+
+.background {
+    background-color: rgb(21, 18, 56);
+    color: white;
 }
