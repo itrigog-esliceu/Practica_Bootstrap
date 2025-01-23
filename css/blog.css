@@ -88,6 +88,8 @@ h1 {
 
 .img-3 {
     border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 .img-4 {
@@ -101,7 +103,10 @@ h1 {
     margin: 30%;
     width: 50px;
     height: 50px;
+}
 
+.img-6 {
+    border-radius: 5%;
 }
 
 .container {
@@ -118,4 +123,21 @@ h1 {
 .background {
     background-color: rgb(21, 18, 56);
     color: white;
+    padding: 50px;
+}
+
+.boton1 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+}
+
+.boton2 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(245, 106, 118);
+    color: black;
 }
